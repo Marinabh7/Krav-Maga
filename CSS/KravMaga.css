@@ -1,0 +1,195 @@
+/* ==== ESTILOS GENERALES ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+}
+
+/* ==== HEADER ==== */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #1f1f1f, #333);
+    color: white;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header em {
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* ==== NAV ==== */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #f4f4f4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* ==== SECCIONES ==== */
+
+section {
+    background: white;
+    margin: 40px auto;
+    padding: 25px 30px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+}
+
+/* ==== IMÁGENES ==== */
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ==== LISTAS ==== */
+
+ul,
+ol {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* ==== TABLAS ==== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ==== FORMULARIO ==== */
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+/* ==== FOOTER ==== */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    color: #333;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ==== RESPONSIVE ==== */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}
